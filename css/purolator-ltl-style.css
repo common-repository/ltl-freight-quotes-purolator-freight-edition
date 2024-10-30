@@ -1,0 +1,336 @@
+/*
+ @ Connection Setting Section Start
+*/
+#wpfooter {
+    position: static;
+    margin-left: 0px !important;
+}
+#footer-left{
+    margin-left: 160px !important
+}
+.woocommerce .connection_section_class_purolator_ltl table.form-table .forminp-radio ul {
+    display : block !important;
+}
+
+.woocommerce .connection_section_class_purolator_ltl table.form-table .forminp-radio ul li 
+{
+    display : inline !important;
+    margin  : 0px 5px !important;
+}
+
+.purolator_ltl_test_conn_prosessing{
+    background: rgba(255, 255, 255, 1) url("../asset/processing.gif") no-repeat scroll 50% 50%;
+}
+
+.woocommerce-save-button {
+    text-transform: capitalize !important;
+}
+.purolator_ltl_warning_msg
+{
+    border-left-color  : #ffb900 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 3px 12px;
+}
+.purolator_ltl_warning_msg p, .wrng_credential p, .not_allowed p{
+    margin : .5em 0;
+}
+
+.connection_section_class_purolator_ltl .form-table tr .titledesc{
+    width: 300px;    
+}
+.connection_section_class_purolator_ltl .woocommerce-save-button{  
+    margin-left: 27px;
+    width: 160px !important;
+    height: 40px;
+    justify-content: center;
+}
+.connection_section_class_purolator_ltl .connection_save_button{
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    background: #298cba none repeat scroll 0 0 !important;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+.connection_section_class_purolator_ltl input[type="text"] {
+    width: 350px;
+    border-radius: 1px;
+    height: 35px !important;
+}
+.connection_section_class_purolator_ltl label{
+    cursor: default;
+}
+.connection_section_class_purolator_ltl p.submit{
+    float: right;
+    text-align: left;
+    width: calc(100% - 310px);
+}
+.connection_section_class_purolator_ltl p.submit > * {
+    line-height: 2.9 !important;
+    margin-left: 20px !important;
+}
+.purolator_ltl_test_connection{
+    font-size: 13px !important;
+    width: 160px !important;
+    text-align: center;
+}
+.purolator_ltl_test_connection:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+
+/*
+ @ Quote Setting Section Start
+*/
+
+.quote_section_class_purolator_ltl .description{
+    font-style: normal !important;
+}
+.quote_section_class_purolator_ltl label{
+    cursor: default;
+}
+
+.quote_section_class_purolator_ltl input[type="text"] {
+    width: 250px;
+    border-radius: 1px;
+    height: 35px !important;
+}
+.quote_section_class_purolator_ltl input[type="checkbox"] {
+    cursor: default;
+    margin: 0 0 12px;
+    height: 20px;
+    width: 20px;
+}
+.quote_section_class_purolator_ltl input[type=checkbox]:checked:before {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    font: 400 21px/1 dashicons;
+    speak: none;
+    padding-top: 2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.quote_section_class_purolator_ltl .form-table tr .titledesc{
+    width: 300px;    
+}
+.quote_section_class_purolator_ltl .woocommerce-save-button{  
+     width: 120px !important;
+    margin-left: 336px;
+    height: 36px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    justify-content: center;
+}
+.quote_section_class_purolator_ltl p.submit {
+  display: flex !important;
+  justify-content: end !important;
+}
+.purolator_ltl_quotes_services_tr th{
+    padding: 0px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+.purolator_ltl_quotes_services_td{
+    padding: 0px 10px !important;
+    font-size: 12px !important;
+}
+
+.purolator_ltl_residential_tr th{
+    padding: 0px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+.purolator_ltl_residential_td{
+    padding: 0px 10px !important;
+    font-size: 12px !important;
+}
+.purolator_ltl_tailgate_tr th{
+    padding: 0px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+.purolator_ltl_tailgate_td{
+    padding: 0px 10px !important;
+    font-size: 12px !important;
+}
+.purolator_ltl_handling_unit_td{
+    padding: 0px 10px 20px 10px !important;
+    font-size: 12px !important;
+}
+
+
+
+
+/*
+ @ User Guide Section
+ */
+.user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.user_guide p{
+    font-size: 14px;
+}
+label[for="purolator_ltl_production_key"]:after, label[for="purolator_ltl_production_password"]:after, label[for="purolator_ltl_reg_acc_num"]:after, label[for="purolator_ltl_plugin_licence_key"]:after, label[for="purolator_ltl_warehouse_zip"]:after, label[for="purolator_ltl_warehouse_city"]:after, label[for="purolator_ltl_warehouse_state"]:after, label[for="purolator_ltl_warehouse_country"]:after{
+    content: " *";
+    color: red;
+}
+
+/*
+ @ Product Detail
+ */
+
+.p_ds_location{
+    width: 50%!important;
+}
+.woocommerce_variable_attributes div.data select{
+    width: 100% !important;
+}
+.woocommerce_variable_attributes div.data .checkbox{
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+.form-row select, .forminp-select select{
+    height: 35px !important;
+}
+#en_plugins_return_LTL_quotes{
+    margin-bottom: 0px !important;
+}
+._hazardousmaterials span.description {
+    font-size: 12px;
+}
+
+.purolator_ltl_residential_td a, .purolator_ltl_tailgate_td a {
+    color: red;
+    margin: 0 0 0 22px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
+
+/* Weight threshold for LTL freight */
+tr.hide_en_weight_threshold_lfq {
+    display: none;
+}
+
+.woocommerce_variable_attributes.wc-metabox-content p span.description a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+#order_shipping_line_items .shipping .display_meta {
+    display: none;
+}
+
+/* Product variant UI styles */
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nmfc_number"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content select._nestedDimension,
+.woocommerce_variable_attributes.wc-metabox-content input._maxNestedItems,
+.woocommerce_variable_attributes.wc-metabox-content select._nestedStakingProperty {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content > p {
+    margin: 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data h2.sbs_settings_title {
+    padding: 0 !important;
+    margin: 30px 0 -10px 3px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content h2 {
+    padding: 0 !important;
+    margin: 30px 0 0 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedDimension"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_maxNestedItems"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedStakingProperty"] {
+    margin: 2px 0 0;
+    padding: 5px;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_flat_rate_price"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_en_product_markup"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedPercentage"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedDimension"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_maxNestedItems"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedStakingProperty"] span.woocommerce-help-tip {
+    float: right;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] {
+    display: flex;
+    align-items: center;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    order: -1;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    margin: 0 10px 0 0 !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"] {
+    margin: 0 10px 0 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] {
+    margin-left: 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"] {
+    margin-right: 10px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] legend {
+    margin-bottom: 5px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] ul[class*="wc-radios"] li {
+    padding: 0 !important;
+}
